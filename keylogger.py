@@ -13,7 +13,7 @@ def generate_text_log(key):
         keys.write(key)
 
 def generate_json_file(keys_used):
-    with open('key_log.json', '+wb') as key_log:
+    with open('keylog.json', '+wb') as key_log:
         key_list_bytes = json.dumps(keys_used).encode()
         key_log.write(key_list_bytes)
 

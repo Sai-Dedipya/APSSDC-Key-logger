@@ -9,7 +9,7 @@ flag = False
 keys = ""
 
 def generate_text_log(key):
-    with open('key_log.txt', "w+") as keys:
+    with open('keylog.txt', "w+") as keys:
         keys.write(key)
 
 def generate_json_file(keys_used):
